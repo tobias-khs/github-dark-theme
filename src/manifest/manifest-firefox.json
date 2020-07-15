@@ -22,8 +22,9 @@
     "content_scripts": [],
     "permissions": [
         "tabs",
+        "contextMenus",
         "storage",
-        "<all_urls>"
+        "*://*.github.com/*"
     ],
     "optional_permissions": [],
     "icons": {
